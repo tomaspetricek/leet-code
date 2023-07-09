@@ -1,7 +1,8 @@
 #include <iostream>
+#include "hard/basic_calculator_2.hpp"
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    leet_code::test_calculate();
     return 0;
 }

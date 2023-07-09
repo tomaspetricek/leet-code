@@ -48,7 +48,7 @@ build cmake_object_order_depends_target_leet_code: phony || CMakeFiles/leet_code
 
 build CMakeFiles/leet_code.dir/main.cpp.o: CXX_COMPILER__leet_code_Debug /Users/tomaspetricek/Programming/Languages/Cpp/leet-code/main.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/main.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++2b
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -std=gnu++2b
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir
   TARGET_COMPILE_PDB = CMakeFiles/leet_code.dir/
@@ -63,7 +63,7 @@ build CMakeFiles/leet_code.dir/main.cpp.o: CXX_COMPILER__leet_code_Debug /Users/
 # Link the executable leet_code
 
 build leet_code: CXX_EXECUTABLE_LINKER__leet_code_Debug CMakeFiles/leet_code.dir/main.cpp.o
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/leet_code.dir
   POST_BUILD = :
   PRE_LINK = :
