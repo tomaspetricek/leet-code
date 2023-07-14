@@ -1,8 +1,8 @@
 #include <iostream>
-#include "easy/find_winner_on_a_tic_tac_toe_game.hpp"
+#include "medium/valid_tic_tac_toe_state.hpp"
 
 int main()
 {
-    leet_code::test_tic_tac_toe();
+    leet_code::test_valid_tic_tac_toe();
     return EXIT_SUCCESS;
 }

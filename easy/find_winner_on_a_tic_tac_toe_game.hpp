@@ -20,7 +20,7 @@ namespace leet_code {
         static constexpr int size = 3;
         static constexpr int r = 0, c = 1;
 
-        int score[(size*2)+size-1] = {0};
+        int score[(3*size)-1] = {0};
         int i{static_cast<int>(moves.size()-1)};
         while (i>=0) {
             auto row = moves[i][r];
