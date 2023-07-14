@@ -1,8 +1,8 @@
 #include <iostream>
-#include "medium/valid_tic_tac_toe_state.hpp"
+#include "easy/plus_one.hpp"
 
 int main()
 {
-    leet_code::test_valid_tic_tac_toe();
+    leet_code::test_plus_one();
     return EXIT_SUCCESS;
 }
