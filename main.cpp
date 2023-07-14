@@ -1,8 +1,8 @@
 #include <iostream>
-#include "hard/basic_calculator_2.hpp"
+#include "easy/add_binary.hpp"
 
 int main()
 {
-    leet_code::test_calculate();
-    return 0;
+    leet_code::test_add_binary();
+    return EXIT_SUCCESS;
 }
