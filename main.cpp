@@ -1,8 +1,8 @@
 #include <iostream>
-#include "medium/search_a_2d_matrix.hpp"
+#include "medium/removing_stars_from_a_string.hpp"
 
 int main()
 {
-    leet_code::test_search_matrix();
+    leet_code::test_remove_stars();
     return EXIT_SUCCESS;
 }
