@@ -1,8 +1,8 @@
 #include <iostream>
-#include "easy/remove_duplicates_from_sorted_array.hpp"
+#include "medium/search_a_2d_matrix.hpp"
 
 int main()
 {
-    leet_code::test_remove_duplicates();
+    leet_code::test_search_matrix();
     return EXIT_SUCCESS;
 }
