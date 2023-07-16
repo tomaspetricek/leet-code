@@ -1,8 +1,8 @@
 #include <iostream>
-#include "medium/removing_stars_from_a_string.hpp"
+#include "easy/reverse_linked_list.hpp"
 
 int main()
 {
-    leet_code::test_remove_stars();
+    leet_code::test_reverse_list();
     return EXIT_SUCCESS;
 }
