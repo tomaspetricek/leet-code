@@ -5,46 +5,11 @@
 #ifndef LEET_CODE_REVERSE_LINKED_LIST_HPP
 #define LEET_CODE_REVERSE_LINKED_LIST_HPP
 
+#include "../list.hpp"
 #include <cassert>
 #include <vector>
 
 namespace leet_code {
-    namespace list {
-        struct node {
-            int val;
-            node* next;
-            node()
-                    :val(0), next(nullptr) { }
-            node(int x)
-                    :val(x), next(nullptr) { }
-            node(int x, node* next)
-                    :val(x), next(next) { }
-        };
-
-        node* create(const std::vector<int>& nums)
-        {
-            node ahead;
-            node* curr{&ahead};
-            for (auto num: nums) {
-                curr->next = new node(num);
-                curr = curr->next;
-            }
-            return ahead.next;
-        }
-
-        bool same(node* fst, node* snd)
-        {
-            while (fst && snd) {
-                if (fst->val!=snd->val) {
-                    return false;
-                }
-                fst = fst->next;
-                snd = snd->next;
-            }
-            return !fst && !snd;
-        }
-    }
-
     using ListNode = list::node;
 
     ListNode* reverseList(ListNode* head)

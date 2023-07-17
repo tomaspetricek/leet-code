@@ -1,8 +1,8 @@
 #include <iostream>
-#include "easy/reverse_linked_list.hpp"
+#include "medium/add_two_numbers_2.hpp"
 
 int main()
 {
-    leet_code::test_reverse_list();
+    leet_code::test_add_two_numbers();
     return EXIT_SUCCESS;
 }
