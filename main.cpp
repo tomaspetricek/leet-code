@@ -1,8 +1,8 @@
 #include <iostream>
-#include "medium/add_two_numbers_2.hpp"
+#include "medium/string_compression.hpp"
 
 int main()
 {
-    leet_code::test_add_two_numbers();
+    leet_code::test_compress();
     return EXIT_SUCCESS;
 }
