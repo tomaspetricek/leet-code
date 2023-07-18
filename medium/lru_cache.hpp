@@ -12,7 +12,7 @@
 #include <functional>
 #include <unordered_map>
 
-int null{0}, dont_know{0};
+int null{0};
 
 // https://leetcode.com/problems/lru-cache/
 // Least Recently Used (LRU) cache
@@ -34,6 +34,15 @@ namespace leet_code {
 
     public:
         using node_ptr = node*;
+
+        ~list()
+        {
+            while (head_) {
+                auto curr = head_;
+                head_ = head_->next;
+                delete curr;
+            }
+        }
 
         void push_front(const T& val)
         {
