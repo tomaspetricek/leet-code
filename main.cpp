@@ -1,8 +1,8 @@
 #include <iostream>
-#include "medium/string_compression.hpp"
+#include "medium/lru_cache.hpp"
 
 int main()
 {
-    leet_code::test_compress();
+    leet_code::test_lru_cache();
     return EXIT_SUCCESS;
 }
