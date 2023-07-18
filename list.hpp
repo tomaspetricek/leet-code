@@ -5,6 +5,8 @@
 #ifndef LEET_CODE_LIST_HPP
 #define LEET_CODE_LIST_HPP
 
+#include <vector>
+
 namespace list {
     struct node {
         int val;
