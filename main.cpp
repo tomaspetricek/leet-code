@@ -1,8 +1,7 @@
-#include <iostream>
-#include "medium/lru_cache.hpp"
+#include "medium/remove_nth_node_from_end_of_list.hpp"
 
 int main()
 {
-    leet_code::test_lru_cache();
+    leet_code::test_remove_nth_from_end();
     return EXIT_SUCCESS;
 }
