@@ -1,7 +1,7 @@
-#include "easy/contains_duplicate.hpp"
+#include "easy/valid_anagram.hpp"
 
 int main()
 {
-    leet_code::test_contains_duplicate();
+    leet_code::test_is_anagram();
     return EXIT_SUCCESS;
 }
