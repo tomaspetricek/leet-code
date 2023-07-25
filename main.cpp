@@ -1,7 +1,7 @@
-#include "medium/remove_nth_node_from_end_of_list.hpp"
+#include "easy/contains_duplicate.hpp"
 
 int main()
 {
-    leet_code::test_remove_nth_from_end();
+    leet_code::test_contains_duplicate();
     return EXIT_SUCCESS;
 }
