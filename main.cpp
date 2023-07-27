@@ -1,7 +1,7 @@
-#include "medium/product_of_array_except_self.hpp"
+#include "medium/longest_consecutive_sequence.hpp"
 
 int main()
 {
-    leet_code::test_product_except_self();
+    leet_code::test_longest_consecutive();
     return EXIT_SUCCESS;
 }

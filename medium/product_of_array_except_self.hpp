@@ -16,7 +16,7 @@ namespace leet_code {
         for (std::size_t i{1}; i<nums.size(); i++) {
             res[i] = res[i-1]*nums[i-1];
         }
-        int right = 1;
+        int right{1};
         std::size_t i{nums.size()};
         while (i--) {
             res[i] *= right;
