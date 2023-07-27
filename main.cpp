@@ -1,7 +1,7 @@
-#include "medium/longest_consecutive_sequence.hpp"
+#include "easy/valid_palindrome.hpp"
 
 int main()
 {
-    leet_code::test_longest_consecutive();
+    leet_code::test_is_palindrome();
     return EXIT_SUCCESS;
 }
