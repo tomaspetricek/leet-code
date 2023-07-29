@@ -1,7 +1,7 @@
-#include "medium/two_sum_2_input_array_is_sorted.hpp"
+#include "easy/best_time_to_buy_and_sell_stock.hpp"
 
 int main()
 {
-    leet_code::test_two_sum();
+    leet_code::test_max_profit();
     return EXIT_SUCCESS;
 }
