@@ -20,32 +20,32 @@ namespace leet_code {
         struct data {
             int val, min;
         };
-        std::stack<data> values_;
+        std::stack<data> vals_;
 
     public:
         void push(int val)
         {
-            if (values_.empty()) {
-                values_.push({val, val});
+            if (vals_.empty()) {
+                vals_.push({val, val});
             }
             else {
-                values_.push({val, std::min(val, values_.top().min)});
+                vals_.push({val, std::min(val, vals_.top().min)});
             }
         }
 
         void pop()
         {
-            values_.pop();
+            vals_.pop();
         }
 
         int top()
         {
-            return values_.top().val;
+            return vals_.top().val;
         }
 
         int getMin()
         {
-            return values_.top().min;
+            return vals_.top().min;
         }
     };
 
