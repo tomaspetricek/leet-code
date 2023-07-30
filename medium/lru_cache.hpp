@@ -11,6 +11,7 @@
 #include <ranges>
 #include <functional>
 #include <unordered_map>
+#include <iostream>
 
 int null{0};
 
@@ -148,6 +149,7 @@ namespace leet_code {
 
     namespace task {
         struct init {
+            static constexpr std::string_view name = "init";
             int capacity;
 
             explicit init(int capacity)
@@ -161,6 +163,7 @@ namespace leet_code {
         };
 
         struct put {
+            static constexpr std::string_view name = "put";
             int key, value;
 
             explicit put(int key, int value)
@@ -174,6 +177,7 @@ namespace leet_code {
         };
 
         struct get {
+            static constexpr std::string_view name = "get";
             int key;
 
             explicit get(int key)
@@ -206,7 +210,7 @@ namespace leet_code {
             for (std::size_t i{0}; i<s.tasks.size(); i++) {
                 auto& t = s.tasks[i];
                 if (t.second!=t.first(cache)) {
-                    std::cout << i << std::endl;
+                    std::cout << "i" << i << std::endl;
                     assert(false);
                 }
             }

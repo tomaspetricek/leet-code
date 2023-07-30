@@ -1,7 +1,7 @@
-#include "easy/best_time_to_buy_and_sell_stock.hpp"
+#include "medium/min_stack.hpp"
 
 int main()
 {
-    leet_code::test_max_profit();
+    leet_code::test_min_stack();
     return EXIT_SUCCESS;
 }
