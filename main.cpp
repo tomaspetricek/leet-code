@@ -1,7 +1,7 @@
-#include "medium/maximum_subarray.hpp"
+#include "medium/longest_palindromic_substring.hpp"
 
 int main()
 {
-    leet_code::test_max_subarray();
+    leet_code::test_longest_palindrome();
     return EXIT_SUCCESS;
 }
