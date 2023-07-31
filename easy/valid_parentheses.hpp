@@ -52,7 +52,7 @@ namespace leet_code {
                 {{"(]"},       false},
                 {{"{()}{]"},   false},
                 {{"{()}{}()"}, true},
-                {{")"}, false},
+                {{")"},        false},
                 {{"("},        false},
         };
         for (std::size_t i{0}; i<samples.size(); i++) {
