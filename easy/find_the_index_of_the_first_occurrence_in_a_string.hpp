@@ -13,13 +13,13 @@ namespace leet_code {
     int strStr(std::string haystack, std::string needle)
     {
         constexpr int not_found = -1;
-        std::size_t j;
-        for (std::size_t i{0}; i<haystack.size(); i++) {
+        int j;
+        for (int i{0}; i<haystack.size(); i++) {
             if (haystack.size()-i<needle.size()) {
                 return not_found;
             }
             j = 0;
-            while (haystack[i+j]==needle[j] && j<needle.size()) {
+            while (j<needle.size() && haystack[i+j]==needle[j]) {
                 j++;
             }
             if (j==needle.size()) {
