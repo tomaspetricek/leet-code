@@ -63,7 +63,6 @@ namespace leet_code {
         };
         for (const auto& s: samples) {
             auto res = longestPalindrome(s.s);
-            std::cout << res << std::endl;
             assert(res==s.res);
         }
     }
