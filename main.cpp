@@ -1,7 +1,7 @@
-#include "medium/car_fleet.hpp"
+#include "medium/combinations.hpp"
 
 int main()
 {
-    leet_code::test_car_fleet();
+    leet_code::test_combine();
     return EXIT_SUCCESS;
 }
