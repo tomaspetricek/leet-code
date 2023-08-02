@@ -14,17 +14,21 @@ namespace leet_code {
         int i, rows{static_cast<int>(matrix.size())}, cols{static_cast<int>(matrix[0].size())},
                 min_row{0}, max_row{rows-1}, min_col{0}, max_col{cols-1};
         while (min_row<=max_row && min_col<=max_col) {
+            // right
             for (i = min_col; i<=max_col && min_row<=max_row; i++) {
                 spiral.push_back(matrix[min_row][i]);
             }
+            // down
             min_row++;
             for (i = min_row; i<=max_row && min_col<=max_col; i++) {
                 spiral.push_back(matrix[i][max_col]);
             }
+            // left
             max_col--;
             for (i = max_col; i>=min_col && min_row<=max_row; i--) {
                 spiral.push_back(matrix[max_row][i]);
             }
+            // up
             max_row--;
             for (i = max_row; i>=min_row && min_col<=max_col; i--) {
                 spiral.push_back(matrix[i][min_col]);
