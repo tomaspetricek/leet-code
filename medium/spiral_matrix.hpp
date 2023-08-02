@@ -13,6 +13,7 @@ namespace leet_code {
         std::vector<int> spiral;
         int i, rows{static_cast<int>(matrix.size())}, cols{static_cast<int>(matrix[0].size())},
                 min_row{0}, max_row{rows-1}, min_col{0}, max_col{cols-1};
+        spiral.reserve(rows*cols);
         while (min_row<=max_row && min_col<=max_col) {
             // right
             for (i = min_col; i<=max_col && min_row<=max_row; i++) {
