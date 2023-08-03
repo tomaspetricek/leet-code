@@ -1,7 +1,7 @@
-#include "easy/jewels_and_stones.hpp"
+#include "easy/ search_insert_position.hpp"
 
 int main()
 {
-    leet_code::test_num_jewels_in_stones();
+    leet_code::test_search_insert();
     return EXIT_SUCCESS;
 }
