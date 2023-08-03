@@ -5,6 +5,7 @@
 #ifndef LEET_CODE_SUBRECTANGLE_QUERIES_HPP
 #define LEET_CODE_SUBRECTANGLE_QUERIES_HPP
 
+#include <utility>
 #include <vector>
 #include <functional>
 #include <cassert>
@@ -41,8 +42,8 @@ namespace leet_code {
         struct init {
             std::vector<std::vector<int>> rectangle;
 
-            explicit init(const std::vector<std::vector<int>>& rectangle)
-                    :rectangle(rectangle) { }
+            explicit init(std::vector<std::vector<int>>  rectangle)
+                    :rectangle(std::move(rectangle)) { }
 
             int operator()(SubrectangleQueries& queries)
             {
