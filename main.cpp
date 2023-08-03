@@ -1,7 +1,7 @@
-#include "medium/letter_combinations_of_a_phone_number.hpp"
+#include "medium/subrectangle_queries.hpp"
 
 int main()
 {
-    leet_code::test_letter_combinations();
+    leet_code::test_subrectangle_queries();
     return EXIT_SUCCESS;
 }
