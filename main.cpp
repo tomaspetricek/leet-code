@@ -1,7 +1,7 @@
-#include "easy/fibonacci_number.hpp"
+#include "medium/rotate_image.hpp"
 
 int main()
 {
-    leet_code::test_fib();
+    leet_code::test_rotate();
     return EXIT_SUCCESS;
 }
