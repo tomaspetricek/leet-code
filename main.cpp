@@ -1,7 +1,7 @@
-#include "medium/unique_binary_search_trees_2.hpp"
+#include "easy/fibonacci_number.hpp"
 
 int main()
 {
-    leet_code::test_generate_trees();
+    leet_code::test_fib();
     return EXIT_SUCCESS;
 }
