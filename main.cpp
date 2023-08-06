@@ -1,7 +1,7 @@
-#include "medium/spiral_matrix_2.hpp"
+#include "medium/game_of_life.hpp"
 
 int main()
 {
-    leet_code::test_generate_matrix();
+    leet_code::test_game_of_life();
     return EXIT_SUCCESS;
 }
