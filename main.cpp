@@ -1,7 +1,7 @@
-#include "easy/minimum_sum_of_four_digit_number_after_splitting_digits.hpp"
+#include "medium/sort_the_students_by_their_kth_score.hpp"
 
 int main()
 {
-    leet_code::test_minimum_sum();
+    leet_code::test_sort_the_students();
     return EXIT_SUCCESS;
 }
