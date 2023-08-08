@@ -1,7 +1,7 @@
-#include "medium/game_of_life.hpp"
+#include "easy/merge_sorted_array.hpp"
 
 int main()
 {
-    leet_code::test_game_of_life();
+    leet_code::test_merge();
     return EXIT_SUCCESS;
 }
