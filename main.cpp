@@ -1,7 +1,7 @@
-#include "easy/how_many_numbers_are_smaller_than_the_current_number.hpp"
+#include "easy/minimum_sum_of_four_digit_number_after_splitting_digits.hpp"
 
 int main()
 {
-    leet_code::test_smaller_numbers_than_current();
+    leet_code::test_minimum_sum();
     return EXIT_SUCCESS;
 }
