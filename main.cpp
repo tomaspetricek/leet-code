@@ -1,7 +1,7 @@
-#include "medium/minesweeper.hpp"
+#include "medium/clone_graph.hpp"
 
 int main()
 {
-    leet_code::test_update_board();
+    leet_code::test_clone_graph();
     return EXIT_SUCCESS;
 }
