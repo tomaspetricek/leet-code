@@ -1,7 +1,7 @@
-#include "medium/sort_the_students_by_their_kth_score.hpp"
+#include "medium/number_of_islands.hpp"
 
 int main()
 {
-    leet_code::test_sort_the_students();
+    leet_code::test_num_islands();
     return EXIT_SUCCESS;
 }
