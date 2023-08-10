@@ -1,7 +1,7 @@
-#include "medium/number_of_islands.hpp"
+#include "medium/minesweeper.hpp"
 
 int main()
 {
-    leet_code::test_num_islands();
+    leet_code::test_update_board();
     return EXIT_SUCCESS;
 }
