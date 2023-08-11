@@ -1,7 +1,7 @@
-#include "medium/coin_change_2.hpp"
+#include "medium/pacific_atlantic_water_flow.hpp"
 
 int main()
 {
-    leet_code::test_change();
+    leet_code::test_pacific_atlantic();
     return EXIT_SUCCESS;
 }
