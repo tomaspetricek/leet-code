@@ -1,7 +1,7 @@
-#include "easy/move_zeroes.hpp"
+#include "easy/climbing_stairs.hpp"
 
 int main()
 {
-    leet_code::test_move_zeroes();
+    leet_code::test_climb_stairs();
     return EXIT_SUCCESS;
 }
