@@ -1,7 +1,7 @@
-#include "medium/pacific_atlantic_water_flow.hpp"
+#include "easy/move_zeroes.hpp"
 
 int main()
 {
-    leet_code::test_pacific_atlantic();
+    leet_code::test_move_zeroes();
     return EXIT_SUCCESS;
 }
