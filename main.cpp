@@ -1,7 +1,7 @@
-#include "medium/unique_paths_2.hpp"
+#include "medium/surrounded_regions.hpp"
 
 int main()
 {
-    leet_code::test_unique_paths_with_obstacles();
+    leet_code::test_solve();
     return EXIT_SUCCESS;
 }
