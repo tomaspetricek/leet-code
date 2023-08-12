@@ -1,7 +1,7 @@
-#include "easy/climbing_stairs.hpp"
+#include "medium/unique_paths_2.hpp"
 
 int main()
 {
-    leet_code::test_climb_stairs();
+    leet_code::test_unique_paths_with_obstacles();
     return EXIT_SUCCESS;
 }
