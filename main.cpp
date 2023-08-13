@@ -1,7 +1,7 @@
-#include "medium/check_if_there_is_a_valid_partition_for_the_array.hpp"
+#include "medium/repeated_dna_sequences.hpp"
 
 int main()
 {
-    leet_code::test_valid_partition();
+    leet_code::test_find_repeated_sequences();
     return EXIT_SUCCESS;
 }
