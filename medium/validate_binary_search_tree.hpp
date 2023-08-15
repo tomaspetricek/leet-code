@@ -14,12 +14,9 @@
 namespace leet_code {
     bool is_valid(tree::node* root, long min, long max)
     {
-        if (root) {
-            return root->val>min && root->val<max
-                    && is_valid(root->left, min, root->val)
-                    && is_valid(root->right, root->val, max);
-        }
-        return true;
+        return !root || (root->val>min && root->val<max
+                && is_valid(root->left, min, root->val)
+                && is_valid(root->right, root->val, max));
     }
 
     bool isValidBST(tree::node* root)
