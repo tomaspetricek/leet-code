@@ -1,7 +1,7 @@
-#include "medium/stone_game.hpp"
+#include "medium/deepest_leaves_sum.hpp"
 
 int main()
 {
-    leet_code::test_stone_game();
+    leet_code::test_deepest_leaves_sum();
     return EXIT_SUCCESS;
 }
