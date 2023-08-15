@@ -1,7 +1,7 @@
-#include "medium/delete_greatest_value_in_each_row.hpp"
+#include "medium/partition_list.hpp"
 
 int main()
 {
-    leet_code::test_delete_greatest_value();
+    leet_code::test_partition();
     return EXIT_SUCCESS;
 }
