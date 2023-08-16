@@ -1,7 +1,7 @@
-#include "medium/validate_binary_search_tree.hpp"
+#include "easy/range_sum_of_bst.hpp"
 
 int main()
 {
-    leet_code::test_is_valid_bst();
+    leet_code::test_range_sum_bst();
     return EXIT_SUCCESS;
 }
