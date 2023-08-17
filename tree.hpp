@@ -49,6 +49,13 @@ namespace tree {
         }
         return tree;
     }
+
+    bool same(tree::node* p, tree::node* q) {
+        if (!p || !q) {
+            return p==q;
+        }
+        return (p->val == q->val) && same(p->right, q->right) && same(p->left, q->left);
+    }
 }
 
 #endif //LEET_CODE_TREE_HPP

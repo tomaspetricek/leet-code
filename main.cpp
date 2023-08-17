@@ -1,7 +1,7 @@
-#include "medium/binary_search_tree_to_greater_sum_tree.hpp"
+#include "medium/implement_trie.hpp"
 
 int main()
 {
-    leet_code::test_bst_to_gst();
+    leet_code::test_trie();
     return EXIT_SUCCESS;
 }
