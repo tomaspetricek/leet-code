@@ -1,7 +1,7 @@
-#include "hard/n_queens.hpp"
+#include "easy/repeated_substring_pattern.hpp"
 
 int main()
 {
-    leet_code::test_solve_n_queens();
+    leet_code::test_repeated_substring_pattern();
     return EXIT_SUCCESS;
 }
