@@ -1,7 +1,7 @@
-#include "easy/repeated_substring_pattern.hpp"
+#include "medium/three_sum.hpp"
 
 int main()
 {
-    leet_code::test_repeated_substring_pattern();
+    leet_code::test_three_sum();
     return EXIT_SUCCESS;
 }
