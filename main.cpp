@@ -1,7 +1,7 @@
-#include "medium/three_sum.hpp"
+#include "medium/set_matrix_zeroes.hpp"
 
 int main()
 {
-    leet_code::test_three_sum();
+    leet_code::test_set_zeroes();
     return EXIT_SUCCESS;
 }
