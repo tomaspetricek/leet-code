@@ -1,9 +1,9 @@
-#include "easy/unique_morse_code_words.hpp"
+#include "medium/rotate_array.hpp"
 #include <print>
 
 int main()
 {
     std::print("Leet Code\n");
-    leet_code::test_unique_morse_representations();
+    leet_code::test_rotate();
     return EXIT_SUCCESS;
 }
