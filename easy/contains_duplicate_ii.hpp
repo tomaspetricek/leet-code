@@ -9,7 +9,7 @@ namespace leet_code
 
         for (std::size_t curr{0}; curr < nums.size(); ++curr)
         {
-            auto& prev = occurrences[nums[curr]];
+            auto &prev = occurrences[nums[curr]];
 
             if (prev && ((curr - (prev - 1)) <= k))
             {
