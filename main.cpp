@@ -1,4 +1,4 @@
-#include "easy/majority_element.hpp"
+#include "medium/majority_element_ii.hpp"
 #include <print>
 
 int main()
