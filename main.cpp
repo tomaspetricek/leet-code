@@ -1,9 +1,6 @@
-#include "medium/majority_element_ii.hpp"
-#include <print>
+#include "medium/range_sum_of_sorted_subarray_sum.hpp"
 
 int main()
 {
-    std::print("Leet Code\n");
-    leet_code::test_majority_element();
-    return EXIT_SUCCESS;
+leet_code::test_range_sum();
 }
