@@ -1,6 +1,6 @@
-#include "medium/range_sum_of_sorted_subarray_sum.hpp"
+#include "medium/minimum_number_of_pushes_to_type_word_ii.hpp"
 
 int main()
 {
-leet_code::test_range_sum();
+    leet_code::test_minimum_pushes();
 }
