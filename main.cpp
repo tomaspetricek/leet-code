@@ -1,6 +1,6 @@
-#include "easy/remove_duplicates_from_sorted_list.hpp"
+#include "easy/merge_two_sorted_lists.hpp"
 
 int main()
 {
-    leet_code::test_remove_duplicates_from_sorted_list();
+    leet_code::test_merge_two_sorted_lists();
 }
