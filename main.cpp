@@ -1,6 +1,6 @@
-#include "medium/minimum_number_of_pushes_to_type_word_ii.hpp"
+#include "easy/remove_duplicates_from_sorted_list.hpp"
 
 int main()
 {
-    leet_code::test_minimum_pushes();
+    leet_code::test_remove_duplicates_from_sorted_list();
 }
